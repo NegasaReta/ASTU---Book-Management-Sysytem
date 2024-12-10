@@ -1,0 +1,11 @@
+body{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0,0.9), rgba(0,0,0,0.5)),url("../img/book\ store.jpg") ;
+    background-position: center;
+    background-size:cover;
+    min-height: 90rem;
+}
+main{
+    width: 90%;
+    margin: 10rem auto;
+
+}
