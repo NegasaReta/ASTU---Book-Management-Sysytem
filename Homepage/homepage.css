@@ -9,3 +9,26 @@ main{
     margin: 10rem auto;
 
 }
+.title{
+    color: burlywood;
+    font-size: 4rem;
+}
+.filter-items{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+}
+.filter-item{
+    color: burlywood;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    user-select: none;
+   
+}
+.filter-item:hover{
+    color: rgb(190, 159, 118);
+}
+.active{
+    border-bottom: 1.5px  solid rgb(229, 190, 138);
+}
