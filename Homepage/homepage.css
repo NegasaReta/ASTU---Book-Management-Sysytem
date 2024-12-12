@@ -32,3 +32,62 @@ main{
 .active{
     border-bottom: 1.5px  solid rgb(229, 190, 138);
 }
+.books{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    grid-gap: 2.5rem;
+}
+.book-container{
+    background-color: rgb(219, 219, 219);
+    min-height: max-content;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+    box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: all 300ms ease-in-out;
+    z-index: 50;
+}
+.book-cover{
+    max-width: fit-content;
+}
+.book-cover img{
+    max-width: 90%;
+}
+.author{
+    font-size: 1.5rem;
+    max-width: fit-content;
+}
+.book-title{
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: rgb(55, 55, 55);
+    margin-top: 5px;
+    max-width: fit-content;
+}
+.book-container svg{
+    position: absolute;
+    right: 1px;
+    top: -11px;
+    cursor: pointer;
+    min-width: 41px;
+    min-height: 85px;
+ }
+
+ .hide{
+    display: none;
+ }
+ .show {
+    display: block;
+    animation: anim 300ms ;
+ }
+ @keyframes anim{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+ }
