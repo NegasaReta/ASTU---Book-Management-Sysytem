@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0,0.9), rgba(0,0,0,0.5)),url("../img/book\ store.jpg") ;
+    background-position: center;
+    background-size:cover;
+    min-height: 50rem;
+}
+main{
+    width: 90%;
+    margin: 10rem auto;
+
+}
+.title{
+    color: burlywood;
+    font-size: 4rem;
+    text-align: center;
+}
+.borrow-form{
+    width: 70VW;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+label{
+    color: white;
+    font-size: 2rem;
+}
+input{
+    background-color: burlywood;
+    width: 24rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+}
+input::placeholder{
+    color: rgb(126, 126, 126);
+}
+input[name="name"]{
+    margin-left: 7rem;
+}
+input[name="student id"]{
+    margin-left: 6.3rem;
+}
+input[name="book"]{
+    margin-left: 7.8rem;
+}
+
+.borrow-btn{
+    background-color: burlywood;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    transition: background,color 200ms ease-in-out;
+}
+.borrow-btn:hover{
+    background-color: white;
+    color: burlywood;
+
+}
