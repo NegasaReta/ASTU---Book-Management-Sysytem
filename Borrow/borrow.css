@@ -132,3 +132,20 @@ input[name="book"]{
     background-color: white;
     border: 1px solid rgb(1, 213, 1);
 }
+@keyframes pop {
+    0%{
+        transform: scale(0);
+        top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        place-content: center;
+        top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+        opacity: 1;
+    }
+}
