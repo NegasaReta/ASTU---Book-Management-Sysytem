@@ -36,23 +36,27 @@ main{
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(4,22%);
-    grid-gap: 2.5rem;
+    grid-gap: 2rem;
+
 }
 .book-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(219, 219, 219);
     min-height: max-content;
     border-radius: 0.3rem;
-    padding: 0.8rem;
+    padding: 4rem 4rem 3rem 4rem;
     box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.2);
     position: relative;
     transition: all 300ms ease-in-out;
     z-index: 50;
+    justify-self: center;
 }
-.book-cover{
-    max-width: fit-content;
-}
+
 .book-cover img{
-    max-width: 90%;
+    max-width: 192px;
+    max-height: 247px;
 }
 .author{
     font-size: 1.5rem;
@@ -80,6 +84,11 @@ main{
  .show {
     display: block;
     animation: anim 300ms ;
+ }
+ .book-container.show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
  @keyframes anim{
     0%{

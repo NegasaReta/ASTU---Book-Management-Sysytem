@@ -59,7 +59,8 @@ input[name="book"]{
     color: white;
     margin-top: 2rem;
     padding: 1rem 3rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
     border-radius: 0.5rem;
     transition: background,color 200ms ease-in-out;
 }

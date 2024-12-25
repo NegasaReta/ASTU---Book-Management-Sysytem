@@ -9,6 +9,7 @@ let verifyPhone = document.querySelector(".verify_phone");
 let verifybook = document.querySelector(".verify_book");
 let verifiactionModal= document.querySelector(".verifiaction");
 let backDrop = document.querySelector(".back-drop");
+let cancelBtn = document.querySelector(".verificatoin-cancel");
 
 borrowBtn.addEventListener("click",(e)=>{
 
@@ -43,9 +44,12 @@ borrowBtn.addEventListener("click",(e)=>{
 
 backDrop.addEventListener("click",()=>{
        backDrop.style.display="none";
-        verifiactionModal.style.display ="none";
-
-
+        verifiactionModal.style.display ="none";   
+})
+    
+cancelBtn.addEventListener("click",()=>{  
+     backDrop.style.display="none";
+     verifiactionModal.style.display ="none";
 })
 
 

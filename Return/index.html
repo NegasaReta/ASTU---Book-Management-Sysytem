@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Managment System</title>
     <link rel="stylesheet" href="../shared.css">
-    <link rel="stylesheet" href="../Borrow/borrow.css">
+    <link rel="stylesheet" href="../Return/return.css">
     <link rel="icon" href="../img/logo.png" />
 </head>
 <body>
@@ -18,8 +18,8 @@
             </div>
             <a href="../Homepage/index.html" class="astu">A.S.T.U</a>
             <ul class="main-nav-items">
-                <li class="main-nav-item"><a href="index.html">Borrowed</a></li>
-                <li class="main-nav-item"><a href="../Return/index.html">Return</a></li>
+                <li class="main-nav-item"><a href="../Borrow/index.html">Borrowed</a></li>
+                <li class="main-nav-item"><a href="index.html">Return</a></li>
                 <li class="main-nav-item"><a href="">About</a></li>
                 <div class="profile">
                     <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -36,45 +36,45 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="borrow-form">
-             <h1 class="title">Borrow a book</h1>
-             <form action="post" id="borrow-form">
-                <div>
-              <label for="name">Full Name:</label>
-              <input type="text" name="name" placeholder="Abebe Kebede Bekele" class="name">
-                </div>
-                <div>
-              <label for="student id">ID Number:</label>
-              <input type="text" name="student id" placeholder="UGR/308000/15" class="id">
-            </div>
-            <div>
-              <label for="phone number">Phone NUmber:</label>
-              <input type="tel" name="phone number" placeholder="09-32-43-54-65" class="phone">
-            </div>
-            <div>
-              <label for="book">Book Title:</label>
-              <input type="text" name="book" placeholder="Applied Maths" class="book">
-            </div>
-             </form>
-             <button type="submit" class="borrow-btn">Borrow</button>
-            </section>
+    <main>
+        <h1 class="title">Return a Book</h1>
+        <div class="book">
+           <input type="checkbox">
+           <img src="../img/book-cover.png" alt="book">
+           <h2 class="book-name">Applied Maths</h2>
+           <h2> - </h2>
+           <h2 class="author">Begashaw maltot</h2>
+        </div>
+        <hr>
 
-            <!-- verificatoin modal -->
-             <div class="verifiaction">
-                <h1>Are you sure?</h1>
-                <h2 class="verify_name"></h2>
-                <h2 class="verify_id"></h2>
-                <h2 class="verify_phone"></h2>
-                <h2 class="verify_book"></h2>
-                <div class="verificatoin-btns">
-                    <button class="verificatoin-confirm verificatoin-btn">Confirm</button>
-                    <button class="verificatoin-cancel verificatoin-btn">Cancel</button>
-                </div>
-             </div>
-             <div class="back-drop"></div>
-         </main>
-    <script src="../JS/borrow.js"></script>  
+        
+        <div class="book">
+           <input type="checkbox">
+           <img src="../img/book-cover.png" alt="book">
+           <h2 class="book-name">Applied Maths</h2>
+           <h2> - </h2>
+           <h2 class="author">Begashaw maltot</h2>
+        </div>
+        <hr>
 
+        <div class="book">
+           <input type="checkbox">
+           <img src="../img/book-cover.png" alt="book">
+           <h2 class="book-name">Applied Maths</h2>
+           <h2> - </h2>
+           <h2 class="author">Begashaw maltot</h2>
+        </div>
+        <hr>
+
+        <div class="book">
+           <input type="checkbox">
+           <img src="../img/book-cover.png" alt="book">
+           <h2 class="book-name">Applied Maths</h2>
+           <h2> - </h2>
+           <h2 class="author">Begashaw maltot</h2>
+        </div>
+        <hr>
+
+        <div class="return"><button class="return-btn">Return</button></div>
+    </main>
 </body>
-</html>
