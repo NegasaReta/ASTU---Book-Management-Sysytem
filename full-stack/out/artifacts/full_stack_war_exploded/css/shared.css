@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 0.8rem;
+    z-index: 100;
+}
+.logo, 
+.profile{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo{
+    position: relative;
+}
+
+.astu{
+    position: absolute;
+    left: 8.8%;
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.main-nav-item{
+    margin: 0px 8px;
+}
+.main-nav-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.main-nav-item a:hover{
+    border-bottom: 0.6px solid white;
+}
+
+@keyframes modal{
+    0%{
+        transform:scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}

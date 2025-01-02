@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0,0.9), rgba(0,0,0,0.5)),url("../img/book store.jpg") ;
+    background-position: center;
+    background-size:cover;
+    min-height: 50rem;
+}
+main{
+    width: 90%;
+    margin: 10rem auto;
+
+}
+.title{
+    color: #e4dfdf;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    /*background-color: white;*/
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1,
+.about-section h2 {
+    color: #d4dbe1;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #bfc6cd;
+}
+
+.developer-list,
+.features-list {
+    list-style: disc;
+    padding-left: 20px;
+    color: #bfc6cd;
+    margin-bottom: 20px;
+}
+
+.developer-list li,
+.features-list li {
+    margin-bottom: 5px;
+
+}
+
+a {
+    color: #bfc6cd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6600;
+}
